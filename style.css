@@ -1,0 +1,62 @@
+:root {
+    --primary-color: #1e1f24;
+    --secondary-color: #dd9365;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200 !important;
+    letter-spacing: .1rem;
+}
+
+h1, h2 {
+    font-weight: 700 !important;
+}
+
+.bg-dark {
+    background-color: var(--primary-color) !important;
+}
+
+.bg-grey {
+    background-color: #efefef;
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+a {
+    color: var(--secondary-color);
+}
+
+.navbar {
+    min-height: 80px;
+}
+
+.nav-link, .navbar-toggler  {
+    color: rgba(256, 256, 256, .2);
+}
+
+.lead {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.border-xs {
+    border-left: 7px solid rgba(256, 256, 256, .2);
+}
+
+.content {
+    margin-top: 5rem;
+    padding: 0 4rem;
+}
+
+.carousel-button {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(256, 256, 256, .65);
+    width: 100%;
+}
