@@ -40,6 +40,10 @@ a {
     color: rgba(256, 256, 256, .2);
 }
 
+#hero {
+    max-height: 100vh;
+}
+
 .lead {
     font-size: 1.5rem;
     font-weight: 200;
@@ -52,6 +56,14 @@ a {
 .content {
     margin-top: 5rem;
     padding: 0 4rem;
+}
+
+.content-icons {
+    color: rgba(256, 256, 256, .2);
+}
+
+.carousel-inner {
+    max-height: 100vh;
 }
 
 .carousel-button {
