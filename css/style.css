@@ -61,22 +61,22 @@ a:hover {
     color: rgba(256, 256, 256, .2);
 }
 
+#hero {
+    position: relative;
+}
+
 .lead {
     font-size: 1.5rem;
     font-weight: 200;
 }
 
-.border-xs {
+.left-border {
     border-left: 7px solid rgba(256, 256, 256, .2);
 }
 
 .content {
     margin-top: 5rem;
     padding: 0 4rem;
-}
-
-.content-icons {
-    color: rgba(256, 256, 256, .2);
 }
 
 .carousel-inner {
@@ -88,10 +88,6 @@ a:hover {
     bottom: 0;
     background-color: rgba(256, 256, 256, .65);
     width: 100%;
-}
-
-#hero {
-    position: relative;
 }
 
 .video-button {
