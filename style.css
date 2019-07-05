@@ -40,10 +40,6 @@ a {
     color: rgba(256, 256, 256, .2);
 }
 
-#hero {
-    max-height: 100vh;
-}
-
 .lead {
     font-size: 1.5rem;
     font-weight: 200;
@@ -71,4 +67,8 @@ a {
     bottom: 0;
     background-color: rgba(256, 256, 256, .65);
     width: 100%;
+}
+
+#properties {
+    padding: 8rem 0;
 }
