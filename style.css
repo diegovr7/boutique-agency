@@ -28,8 +28,29 @@ h1, h2 {
     color: var(--primary-color) !important;
 }
 
+a.text-primary:hover {
+    color: var(--primary-color) !important;
+}
+
 a {
+    color: rgba(256, 256, 256, .2);
+}
+
+a:hover {
+    color: rgba(256, 256, 256, .5);
+}
+
+.active {
     color: var(--secondary-color);
+}
+
+.active:hover {
+    color: var(--secondary-color);
+}
+
+.logo {
+    min-width: 160px;
+    max-width: 180px;
 }
 
 .navbar {
@@ -67,6 +88,43 @@ a {
     bottom: 0;
     background-color: rgba(256, 256, 256, .65);
     width: 100%;
+}
+
+#hero {
+    position: relative;
+}
+
+.video-button {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    height: 140px;
+    width: 140px;
+    font-size: 70px;
+    padding: 0px 45px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    border: 10px solid rgba(256, 256, 256, .3);
+    background-clip: padding-box;
+    z-index: 999;
+    -webkit-appearance: none;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    top: unset;
+    bottom: 150px;
+    height: 50px;
+    width: 50px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+}
+
+.carousel-control-next {
+    right: 10px;
+}
+
+.carousel-control-prev {
+    left: 10px;
 }
 
 #properties {

@@ -15,16 +15,19 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <title>Real Estate Agency</title>
 </head>
 
 <body>
     <section id="hero">
+        <a type="button" class="video-button mx-auto" data-toggle="modal" data-target="#exampleModalCenter">
+            <i class="icon ion-md-play active"></i>
+        </a>
         <div class="row no-gutters">
             <div class="col-lg-6 col-md-12">
                 <div class="container">
                     <nav class="navbar navbar-expand-lg bg-dark">
-                        <a class="navbar-brand" href="#">Navbar</a>
+                        <a class="navbar-brand" href="#"><img src="logo.svg" class="logo"></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -33,13 +36,13 @@
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item mx-4">
+                                <li class="nav-item mx-xl-4 mx-sm-1">
                                     <a class="nav-link" href="#">Buying</a>
                                 </li>
-                                <li class="nav-item mx-4">
+                                <li class="nav-item mx-xl-4 mx-sm-1">
                                     <a class="nav-link" href="#">Renting</a>
                                 </li>
-                                <li class="nav-item mx-4">
+                                <li class="nav-item mx-xl-4 mx-sm-1">
                                     <a class="nav-link" href="#">Selling</a>
                                 </li>
                             </ul>
@@ -59,13 +62,13 @@
                         </div>
 
 
-                        <a href="#" class="lead d-block mb-5">Learn more <i class="icon ion-md-arrow-forward ml-3"></i></a>
+                        <a href="#" class="lead d-block active mb-5">Learn more <i class="icon ion-md-arrow-forward ml-3"></i></a>
 
                         <ul class="list-inline lead">
-                            <li class="list-inline-item mr-4"><i class="icon ion-logo-instagram"></i></li>
-                            <li class="list-inline-item mr-4"><i class="icon ion-logo-dribbble"></i></li>
-                            <li class="list-inline-item mr-4"><i class="icon ion-logo-youtube"></i></li>
-                            <li class="list-inline-item"><i class="icon ion-logo-linkedin"></i></li>
+                            <li class="list-inline-item mr-4"><a href="#"><i class="icon ion-logo-instagram"></i></a></li>
+                            <li class="list-inline-item mr-4"><a href="#"><i class="icon ion-logo-dribbble"></i></a></li>
+                            <li class="list-inline-item mr-4"><a href="#"><i class="icon ion-logo-youtube"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="icon ion-logo-linkedin"></i></a></li>
                         </ul>
 
                     </div>
@@ -96,7 +99,7 @@
                             <span class="sr-only">Next</span>
                         </a>
                         <div class="carousel-button text-center py-4">
-                            <h2 class="display-5 text-primary text-uppercase text-underline mb-0">Buy now</h2>
+                            <h2 class="display-4 text-primary text-uppercase text-underline mb-0"><a href="#" class="text-primary"><u>Buy now</u></a></h2>
                         </div>
                     </div>
                 </div>
@@ -106,7 +109,9 @@
 
     <section id="properties" class="bg-grey p-5">
         <div class="container">
-            <div class="row">
+            <h2 class="text-primary">Featured Properties</h2>
+            <p class="lead text-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra sed neque dignissim rhoncus.</p>
+            <div class="row mt-5">
                 <div class="col-md-4">
                     <img src="hero.jpg" class="img-fluid">
                 </div>
@@ -119,6 +124,15 @@
             </div>
         </div>
     </section>
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/FMtXsp6WRrw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
